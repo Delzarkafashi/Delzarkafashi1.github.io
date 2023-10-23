@@ -1,0 +1,27 @@
+/* Grundstil för menyn */
+ul.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.menu li {
+    margin-right: 20px;
+}
+
+ul.menu li:last-child {
+    margin-right: 0;
+}
+
+ul.menu a {
+    text-decoration: none;
+    color: #817905; /* Textfärg */
+    font-weight: bold;
+}
+
+/* Stil för menyelement vid hovring (hover) */
+ul.menu a:hover {
+    color: #007bff; /* Ändra textfärg vid hovring */
+}

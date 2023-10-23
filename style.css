@@ -1,0 +1,19 @@
+
+h1{
+    color: #090807;
+}
+
+
+
+body{
+    background-image: url(image/havet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* här styr vi title*/
+.title {
+    text-align: center;
+    font-size: 36px;
+    /* Ytterligare stilinställningar här, om så önskas */
+}
+
