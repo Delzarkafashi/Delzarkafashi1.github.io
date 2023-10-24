@@ -16,4 +16,19 @@ body{
     font-size: 36px;
     /* Ytterligare stilinställningar här, om så önskas */
 }
+/* delzar bilden */
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.centered-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh; /* För att fylla hela höjden av vyporten */
+}
+
+
+
 
