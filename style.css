@@ -1,4 +1,20 @@
 
+
+
+  
+.text-container {
+    background-color: rgba(192, 231, 243, 0.219); 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
 h1{
     color: #090807;
 }
@@ -6,7 +22,7 @@ h1{
 
 
 body{
-    background-image: url(image/solnedgångstrand.jpg);
+    background-image: url(image/hav.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,25 +36,25 @@ body{
 .centered-image {
     display: block;
     margin: 0 auto;
+    width: 300;
+    height: 500px;
+    
 }
 
 .centered-bottom {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: column; /* how you want make in a row or colums */
    /* padding-bottom: 100px;*/
     /*height: 100vh; /* För att fylla hela höjden av vyporten */
 }
 
-.text-container {
-    background-color: rgba(97, 97, 97, 0.7); /* Mörk och genomskinlig bakgrundsfärg */
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Skugga för textbehållaren */
-    text-align: center;
+.centered-bottom a{
+    margin-bottom: 10px;
+    /*color: red;*/
 }
+
 /* style för about me */
 .custom-heading {
     font-size: px;
@@ -52,8 +68,10 @@ body{
     font-family: Arial, sans-serif;
   }
   
+  ul {
+    list-style: none;
+  }
   
-
-
-
-
+  a {
+    text-decoration: none;
+  }
